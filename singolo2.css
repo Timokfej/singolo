@@ -1,0 +1,132 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        width: 1020px;
+        height: 1604px;
+    }
+    
+    .portfolio {
+        height: 864px;
+        padding-left: 40px;
+        background-color: #2d303a;
+        border-bottom: 6px #323746 solid;
+    }
+    
+    h2 {
+        padding-top: 60px;
+        font-family: "Lato Black";
+        font-size: 30px;
+        color: rgb(102, 109, 137);
+    }
+    
+    h2+p {
+        font-family: "Lato Light";
+        font-size: 18px;
+        color: rgb(102, 109, 137);
+        padding-top: 22px;
+    }
+    
+    .portfolio__menu-container {
+        padding-top: 15px;
+        padding-bottom: 20px;
+        width: 290px;
+        font-family: "Lato Regular";
+        font-size: 12px;
+        color: rgb(102, 109, 137);
+        display: flex;
+        flex-flow: nowrap;
+        justify-content: space-between;
+        overflow: hidden;
+    }
+    
+    .portfolio__menu-item {
+        list-style: none;
+        border: 1px rgb(102, 109, 137) solid;
+        border-radius: 5px;
+        padding: 3px 6px;
+    }
+    
+    .portfolio__menu-item a {
+        text-decoration: none;
+        color: #666d89;
+    }
+    
+    .portfolio__menu-item:first-child {
+        border-color: rgb(197, 197, 197);
+    }
+    
+    .portfolio__menu-item:first-child a {
+        color: rgb(197, 197, 197);
+    }
+    
+    .portfolio__flex-container {
+        height: 620px;
+        width: 960px;
+        list-style: none;
+        display: flex;
+        flex-flow: row wrap;
+        overflow: hidden;
+    }
+    
+    .portfolio__flex-item {
+        width: 25%;
+    }
+    
+    .about-us {
+        background-color: #f2f2f2;
+        border-bottom: 6px #ffffff solid;
+        height: 728px;
+        padding-left: 40px;
+        padding-right: 20px;
+    }
+    
+    .about-us__description {
+        font-family: "Lato Light";
+        font-size: 18px;
+        color: rgb(102, 109, 137);
+        padding-top: 16px;
+        line-height: 30px;
+    }
+    
+    .layout-3-column {
+        padding-top: 47px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    
+    .employee-column {
+        width: 33.33%;
+    }
+    
+    .employee-column+img {
+        background-color: #464b5e;
+    }
+    
+    .employee__name {
+        padding-top: 11px;
+        font-family: "Lato Black";
+        font-size: 18px;
+        color: #666d89;
+    }
+    
+    .employee__title {
+        padding-top: 9px;
+        height: 60px;
+        font-family: "Lato Regular";
+        font-size: 12px;
+        color: #767e9e;
+        line-height: 20px;
+    }
+    
+    .employee__ikons {
+        padding-top: 3px;
+        width: 153px;
+        list-style: none;
+        display: flex;
+        flex-flow: nowrap;
+        justify-content: space-between;
+    }
