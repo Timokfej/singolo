@@ -1,0 +1,150 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            width: 1020px;
+            height: 730px;
+        }
+        
+        .quote {
+            height: 648px;
+            background-color: #f06c64;
+            border-bottom: 6px #ea676b solid;
+            padding-left: 40px;
+        }
+        
+        h2 {
+            padding-top: 60px;
+            font-family: "Lato Black";
+            font-size: 30px;
+            color: #f0d8d9;
+        }
+        
+        h2+p {
+            font-family: "Lato Light";
+            font-size: 18px;
+            line-height: 28px;
+            color: #f0d8d9;
+            padding-top: 20px;
+        }
+        
+        .wrapper-form {
+            width: 940px;
+            display: flex;
+            padding-top: 44px;
+        }
+        
+        input {
+            background-color: #d6564f;
+            font-family: "Lato Regular";
+            font-size: 12px;
+            color: #f0d8d9;
+            height: 38px;
+            width: 619px;
+            margin-bottom: 16px;
+            border-radius: 5px;
+            border: 0;
+        }
+        
+        .submit {
+            font-family: "Lato Regular";
+            font-size: 12px;
+            color: #f08586;
+            background-color: #f03c32;
+            height: 38px;
+            width: 170px;
+            margin-bottom: 13px;
+            border-radius: 5px;
+            border: 0;
+        }
+        
+        textarea {
+            font-family: "Lato Regular";
+            font-size: 12px;
+            color: #f0d8d9;
+            resize: none;
+            background-color: #d6564f;
+            height: 200px;
+            width: 619px;
+            margin-bottom: 15px;
+            border-radius: 5px;
+            border: 0;
+        }
+        
+        input::-webkit-input-placeholder,
+        textarea::-webkit-input-placeholder {
+            color: #f08586;
+            padding-left: 13px;
+            padding-top: 12px;
+        }
+        
+        input::-moz-placeholder,
+        textarea::-moz-placeholder {
+            color: #f08586;
+        }
+        
+        .contact {
+            padding-left: 17px;
+        }
+        
+        .contact__title {
+            font-family: "Lato Black";
+            font-size: 18px;
+            color: #f0d8d9;
+        }
+        
+        .contact__description {
+            font-family: "Lato Regular";
+            font-size: 12px;
+            color: #f0d8d9;
+            line-height: 21px;
+            padding-top: 10px;
+            text-align: justify;
+        }
+        
+        .contact-icons {
+            list-style: none;
+            padding-top: 23px;
+            padding-left: 3px;
+        }
+        
+        .contact-icons li a {
+            text-decoration: none;
+            font-family: "Lato Regular";
+            font-size: 12px;
+            color: #f0d8d9;
+        }
+        
+        .contact-icons li img {
+            padding-right: 10px;
+        }
+        
+        .footer {
+            height: 76px;
+            background-color: #2d303a;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            padding-left: 40px;
+        }
+        
+        .copy-content {
+            font-family: "Lato Regular";
+            font-size: 12px;
+            color: #5e657e;
+            padding-top: 30px;
+        }
+        
+        .network-icons {
+            width: 190px;
+            padding-top: 22px;
+            list-style: none;
+            display: flex;
+            flex-flow: nowrap;
+        }
+        
+        .network-icons li a {
+            padding-right: 7.5px;
+        }
